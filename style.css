@@ -1,0 +1,60 @@
+body {
+    font-size: 15px;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    margin-left: 150px;
+    /* border-radius: 5px;
+    overflow: hidden; */
+}
+
+#container div {
+    color: white;
+    width: 7cm;
+    padding: 1cm;
+}
+
+#div1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#div2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#div3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+button {
+    padding: 0.3cm 0.5cm;
+    border-width: 0;
+    border-radius: 1cm;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 375px) {
+    #container {
+        flex-flow: column;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #container {
+        flex-flow: row;
+    }
+}
